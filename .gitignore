@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+Data/*.json
+Downloads/
+0/
+Install/SekoDL-Setup.exe
