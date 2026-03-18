@@ -1,0 +1,30 @@
+{
+  "name": "sekodl",
+  "version": "1.0.0",
+  "description": "Download Manager without GUI (Terminal)",
+  "main": "src/cli.js",
+  "bin": {
+    "sekodl": "./bin/sekodl.js"
+  },
+  "scripts": {
+    "start": "node bin/sekodl.js",
+    "test": "jest --testPathPattern=tests/"
+  },
+  "keywords": [
+    "download",
+    "manager",
+    "cli",
+    "terminal"
+  ],
+  "author": "Ahmedseko",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nock": "^13.5.4"
+  }
+}
